@@ -2,14 +2,14 @@ import { StyleSheet } from "react-native";
 import Colors from "../../constants/Colors";
 const styles=StyleSheet.create({
     container:{
-        flexDirection: 'row',
+    flexDirection: 'row',
     margin: 10,
     alignItems: 'flex-end',
     },
     typingbox:{
     flexDirection: 'row',
     backgroundColor: 'white',
-    padding: 10,
+    padding: 5,
     borderRadius: 25,
     marginRight: 10,
     flex: 1,

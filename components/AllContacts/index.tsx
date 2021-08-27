@@ -6,7 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 const AllContact=()=>{
     const navigation=useNavigation();
     const onPress=()=>{
-navigation.navigate('Contacts')
+        navigation.navigate('Contacts')
     }
     return(
         <View style={styles.container}>
